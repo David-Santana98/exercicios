@@ -5,8 +5,11 @@ export default function Estilo(props) {
         color: props.color,
         textAlign: props.direita ? "right" : "left", 
         }}>
-            Texto
+            Texto #01
             </h1>
+            <h2 className={props.numero >= 0 ? "azul" : "vermelho"}>
+                Texto #02
+            </h2>
         </div>
     )
 }
